@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610D51401954749C000D4A23 /* prowlfound.png in Resources */ = {isa = PBXBuildFile; fileRef = 610D513F1954749C000D4A23 /* prowlfound.png */; };
 		610FD54C1951B225009BB697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610FD54B1951B225009BB697 /* Foundation.framework */; };
 		610FD54E1951B225009BB697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610FD54D1951B225009BB697 /* CoreGraphics.framework */; };
 		610FD5501951B225009BB697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610FD54F1951B225009BB697 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610D513F1954749C000D4A23 /* prowlfound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prowlfound.png; path = ../../prowlfound.png; sourceTree = "<group>"; };
 		610FD5481951B225009BB697 /* ProwlCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProwlCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610FD54B1951B225009BB697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		610FD54D1951B225009BB697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +130,7 @@
 				610FD55A1951B225009BB697 /* ProwlCommAppDelegate.h */,
 				610FD55B1951B225009BB697 /* ProwlCommAppDelegate.m */,
 				610FD55D1951B225009BB697 /* Main.storyboard */,
+				610D513F1954749C000D4A23 /* prowlfound.png */,
 				610FD5601951B225009BB697 /* ProwlCommViewController.h */,
 				610FD5611951B225009BB697 /* ProwlCommViewController.m */,
 				610FD5631951B225009BB697 /* Images.xcassets */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				610FD5641951B225009BB697 /* Images.xcassets in Resources */,
+				610D51401954749C000D4A23 /* prowlfound.png in Resources */,
 				61F9357D19530C5400371E0E /* gradient.png in Resources */,
 				610FD5561951B225009BB697 /* InfoPlist.strings in Resources */,
 				610FD55F1951B225009BB697 /* Main.storyboard in Resources */,

@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.keyArray  = [[NSArray alloc]initWithObjects:@"Nicolas Charvoz", @"0", nil];
+    self.keyArray  = [[NSArray alloc]initWithObjects:@"Nicolas Charvoz" , @"0", nil ];
 }
 
 - (void)didReceiveMemoryWarning
@@ -150,7 +150,8 @@ BOOL check = true;
         [_priority setHidden:YES];
         [_imageView setHidden:YES];
         [_progress setHidden:YES];
-        [self.slide setHidden:YES];
+        [_slide setHidden:YES];
+        [_send setHidden:YES];
         [keyChose setTitle:@"Done" forState:UIControlStateNormal];
         check = false;
         return ;
@@ -162,7 +163,8 @@ BOOL check = true;
         [_priority setHidden:NO];
         [_imageView setHidden:NO];
         [_progress setHidden:NO];
-        [self.slide setHidden:NO];
+        [_slide setHidden:NO];
+        [_send setHidden:NO];
         [keyChose setTitle:@">" forState:UIControlStateNormal];
         check = true;
         return ;

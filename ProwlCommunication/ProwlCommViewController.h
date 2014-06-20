@@ -23,6 +23,7 @@
 - (IBAction)keyChose:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UISlider *slide;
+@property (weak, nonatomic) IBOutlet UIButton *send;
 
 
 - (IBAction)button:(id)sender;
