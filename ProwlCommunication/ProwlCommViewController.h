@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *priority;
 - (IBAction)keyChose:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UISlider *slide;
 
 
 - (IBAction)button:(id)sender;

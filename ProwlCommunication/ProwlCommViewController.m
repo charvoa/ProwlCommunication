@@ -124,7 +124,7 @@ static float progress = 0.0f;
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row   inComponent:(NSInteger)component{
     
-    NSLog(@"Selected Row %d", row);
+    NSLog(@"Selected Row %ld", (long)row);
     switch(row)
     {
             
@@ -141,6 +141,7 @@ static float progress = 0.0f;
 BOOL check = true;
 
 - (IBAction)keyChose:(id)sender {
+    
     UIButton *keyChose = (UIButton*)sender;
     if (check == true)
     {
@@ -149,6 +150,7 @@ BOOL check = true;
         [_priority setHidden:YES];
         [_imageView setHidden:YES];
         [_progress setHidden:YES];
+        [self.slide setHidden:YES];
         [keyChose setTitle:@"Done" forState:UIControlStateNormal];
         check = false;
         return ;
@@ -160,6 +162,7 @@ BOOL check = true;
         [_priority setHidden:NO];
         [_imageView setHidden:NO];
         [_progress setHidden:NO];
+        [self.slide setHidden:NO];
         [keyChose setTitle:@">" forState:UIControlStateNormal];
         check = true;
         return ;
